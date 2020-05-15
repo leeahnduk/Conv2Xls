@@ -41,7 +41,7 @@ A quick look for the help will list the current available options.
 
 
 ## Files
-Need to prepare Tetration Policies JSON file. The sample Tetration Policies JSON file is in the github folder.
+Need to prepare Tetration Conversation JSON file. The sample Tetration Conversation JSON file is in the github folder.
 
 
 ## Steps
