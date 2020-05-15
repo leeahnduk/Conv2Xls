@@ -1,0 +1,21 @@
+Source IP,Source Filter Name,Destination IP,Destination Filter Name,Protocol,Port,Bytes,Packets
+172.17.16.239,Siwapp-SQL,172.17.0.8,anhdle:AUS:Shared Services:Tetration,TCP,5660,73560394,453048
+172.17.16.239,Siwapp-SQL,172.16.1.91,anhdle:AUS:Shared Services:Domain Services,UDP,123,78120,868
+172.17.16.232,Siwapp-SQL,172.17.0.5,anhdle:AUS:Shared Services:Tetration,TCP,443,3289887,21694
+172.17.16.238,Siwapp-Apps,172.17.16.233,Backend-Proxy,TCP,3306,720635680,5647777
+172.16.1.14,anhdle:AUS:Hacking,172.17.16.235,Siwapp-Apps,ICMP,0,6050,39
+172.17.16.233,Backend-Proxy,172.16.1.90,anhdle:AUS:Shared Services:Domain Services,UDP,123,78120,868
+172.16.1.14,anhdle:AUS:Hacking,172.17.16.236,Frontend-Proxy,TCP,5000,1638,18
+172.16.1.14,anhdle:AUS:Hacking,172.17.16.237,Siwapp-Apps,TCP,7,2032,32
+172.16.1.14,anhdle:AUS:Hacking,172.17.16.233,Backend-Proxy,TCP,3306,807,11
+172.17.16.236,Frontend-Proxy,172.17.16.237,Siwapp-Apps,TCP,8081,663447462,1488121
+172.17.16.240,Siwapp-SQL,172.17.0.10,anhdle:AUS:Shared Services:Tetration,TCP,5660,73576583,453055
+172.17.16.232,Siwapp-SQL,172.17.0.16,anhdle:AUS:Shared Services:Tetration,TCP,5660,73586319,453056
+172.17.16.239,Siwapp-SQL,172.17.16.240,Siwapp-SQL,TCP,4567,861731948,6781684
+172.17.16.239,Siwapp-SQL,172.17.0.5,anhdle:AUS:Shared Services:Tetration,TCP,443,3289091,21682
+172.16.1.14,anhdle:AUS:Hacking,172.17.16.237,Siwapp-Apps,TCP,8080,5274,15
+172.16.1.14,anhdle:AUS:Hacking,172.17.16.238,Siwapp-Apps,TCP,8081,1383,13
+172.16.1.14,anhdle:AUS:Hacking,172.17.16.238,Siwapp-Apps,ICMP,0,6158,41
+172.16.1.14,anhdle:AUS:Hacking,172.17.16.233,Backend-Proxy,TCP,80,324,6
+172.16.1.14,anhdle:AUS:Hacking,172.17.16.235,Siwapp-Apps,TCP,80,324,6
+172.16.1.14,anhdle:AUS:Hacking,172.17.16.238,Siwapp-Apps,UDP,32255,1710,5
