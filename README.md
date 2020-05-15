@@ -50,7 +50,7 @@ Step 1: Issue `$ pip3 install -r requirements.txt` to install all required packa
 
 Step 2: To run the apps: `python3 conv2xls.py --url https://Cluster-IP --credential api_credentials.json --conversation conversations-all.json`
 
-Step 3: Answer all the questions about scope and application name to import to your cluster.
+Step 3: Open Conversation.csv to see all conversation
 
 
 ## Feedback
