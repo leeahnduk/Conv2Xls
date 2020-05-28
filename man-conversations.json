@@ -1,0 +1,922 @@
+[{
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.29",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 3773,
+                "packet_count": 30,
+                "proto": 6,
+                "start_port": 7082,
+                "end_port": 7082,
+                "port": "7082",
+                "excluded": "false",
+                "confidence": "0.81",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "7082",
+        "byteCount": 3773,
+        "excluded": "false",
+        "confidence": "0.81",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI5IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yOSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiNzA4MiIsImRpc3BsYXlWYWx1ZSI6IjcwODIifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6InByb3RvIiwidGl0bGUiOiJQcm90b2NvbCIsInR5cGUiOiJTVFJJTkciLCJleGFtcGxlcyI6ImUuZy4gVENQLCBVRFAsIElDTVAiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifSx7ImxhYmVsIjoiY29udGFpbnMiLCJ0eXBlIjoiY29udGFpbnMiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJjb250YWlucyJ9LHsibGFiZWwiOiJkb2Vzbid0IGNvbnRhaW4iLCJ0eXBlIjoibm90Q29udGFpbnMifV19LCJ2YWx1ZSI6IlRDUCIsImRpc3BsYXlWYWx1ZSI6IlRDUCJ9XQ--"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.25",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 1476,
+                "packet_count": 10,
+                "proto": 6,
+                "start_port": 20519,
+                "end_port": 20519,
+                "port": "20519",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "20519",
+        "byteCount": 1476,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yNSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMjA1MTkiLCJkaXNwbGF5VmFsdWUiOiIyMDUxOSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.29",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 395,
+                "packet_count": 4,
+                "proto": 6,
+                "start_port": 20878,
+                "end_port": 20878,
+                "port": "20878",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "20878",
+        "byteCount": 395,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI5IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yOSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMjA4NzgiLCJkaXNwbGF5VmFsdWUiOiIyMDg3OCJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.29",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 396,
+                "packet_count": 4,
+                "proto": 6,
+                "start_port": 11528,
+                "end_port": 11528,
+                "port": "11528",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "11528",
+        "byteCount": 396,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI5IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yOSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMTE1MjgiLCJkaXNwbGF5VmFsdWUiOiIxMTUyOCJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.200.6.111",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 64,
+                "packet_count": 1,
+                "proto": 6,
+                "start_port": 3961,
+                "end_port": 3961,
+                "port": "3961",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "3961",
+        "byteCount": 64,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDAuNi4xMTEiLCJkaXNwbGF5VmFsdWUiOiIxMC4yMDAuNi4xMTEifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9wb3J0IiwidGl0bGUiOiJQcm92aWRlciBQb3J0IiwidHlwZSI6Ik5VTUJFUiIsImV4YW1wbGVzIjoiZS5nLiA4MCwgNDQzLCA4MDAwLTkwMDAiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifSx7ImxhYmVsIjoiPiIsInR5cGUiOiJndCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imd0In0seyJsYWJlbCI6IjwiLCJ0eXBlIjoibHQiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJsdCJ9LHsibGFiZWwiOiLiiaUiLCJ0eXBlIjoiZ3RlIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3RlIn0seyJsYWJlbCI6IuKJpCIsInR5cGUiOiJsdGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJsdGUifV19LCJ2YWx1ZSI6IjM5NjEiLCJkaXNwbGF5VmFsdWUiOiIzOTYxIn0seyJ0eXBlIjoiZmlsdGVyIiwib3BlcmF0b3IiOnsibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSwiZmFjZXQiOnsiZmllbGQiOiJwcm90byIsInRpdGxlIjoiUHJvdG9jb2wiLCJ0eXBlIjoiU1RSSU5HIiwiZXhhbXBsZXMiOiJlLmcuIFRDUCwgVURQLCBJQ01QIiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn0seyJsYWJlbCI6ImNvbnRhaW5zIiwidHlwZSI6ImNvbnRhaW5zIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiY29udGFpbnMifSx7ImxhYmVsIjoiZG9lc24ndCBjb250YWluIiwidHlwZSI6Im5vdENvbnRhaW5zIn1dfSwidmFsdWUiOiJUQ1AiLCJkaXNwbGF5VmFsdWUiOiJUQ1AifV0-"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.27",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 595,
+                "packet_count": 4,
+                "proto": 6,
+                "start_port": 6090,
+                "end_port": 6090,
+                "port": "6090",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "6090",
+        "byteCount": 595,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI3IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yNyJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiNjA5MCIsImRpc3BsYXlWYWx1ZSI6IjYwOTAifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6InByb3RvIiwidGl0bGUiOiJQcm90b2NvbCIsInR5cGUiOiJTVFJJTkciLCJleGFtcGxlcyI6ImUuZy4gVENQLCBVRFAsIElDTVAiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifSx7ImxhYmVsIjoiY29udGFpbnMiLCJ0eXBlIjoiY29udGFpbnMiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJjb250YWlucyJ9LHsibGFiZWwiOiJkb2Vzbid0IGNvbnRhaW4iLCJ0eXBlIjoibm90Q29udGFpbnMifV19LCJ2YWx1ZSI6IlRDUCIsImRpc3BsYXlWYWx1ZSI6IlRDUCJ9XQ--"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.29",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 2514,
+                "packet_count": 20,
+                "proto": 6,
+                "start_port": 11649,
+                "end_port": 11649,
+                "port": "11649",
+                "excluded": "false",
+                "confidence": "0.81",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "11649",
+        "byteCount": 2514,
+        "excluded": "false",
+        "confidence": "0.81",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI5IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yOSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMTE2NDkiLCJkaXNwbGF5VmFsdWUiOiIxMTY0OSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.120.207.223",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d525f3f497d4f23bf18bfc1",
+        "l4_details": [{
+                "byte_count": 5460,
+                "packet_count": 60,
+                "proto": 6,
+                "start_port": 1554,
+                "end_port": 1554,
+                "port": "1554",
+                "excluded": "false",
+                "confidence": "0.81",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d525f3f497d4f23bf18bfc1",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default:Mandiri Tetration",
+            "short_name": "Mandiri Tetration",
+            "dirty": false
+        },
+        "dst_filter_name": "Default:Mandiri Tetration",
+        "protocol": "TCP",
+        "portNumber": "1554",
+        "byteCount": 5460,
+        "excluded": "false",
+        "confidence": "0.81",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4xMjAuMjA3LjIyMyIsImRpc3BsYXlWYWx1ZSI6IjEwLjEyMC4yMDcuMjIzIn0seyJ0eXBlIjoiZmlsdGVyIiwib3BlcmF0b3IiOnsibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSwiZmFjZXQiOnsiZmllbGQiOiJkc3RfcG9ydCIsInRpdGxlIjoiUHJvdmlkZXIgUG9ydCIsInR5cGUiOiJOVU1CRVIiLCJleGFtcGxlcyI6ImUuZy4gODAsIDQ0MywgODAwMC05MDAwIiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn0seyJsYWJlbCI6Ij4iLCJ0eXBlIjoiZ3QiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndCJ9LHsibGFiZWwiOiI8IiwidHlwZSI6Imx0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibHQifSx7ImxhYmVsIjoi4omlIiwidHlwZSI6Imd0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imd0ZSJ9LHsibGFiZWwiOiLiiaQiLCJ0eXBlIjoibHRlIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibHRlIn1dfSwidmFsdWUiOiIxNTU0IiwiZGlzcGxheVZhbHVlIjoiMTU1NCJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.29",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 2518,
+                "packet_count": 20,
+                "proto": 6,
+                "start_port": 14916,
+                "end_port": 14916,
+                "port": "14916",
+                "excluded": "false",
+                "confidence": "0.81",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "14916",
+        "byteCount": 2518,
+        "excluded": "false",
+        "confidence": "0.81",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI5IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yOSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMTQ5MTYiLCJkaXNwbGF5VmFsdWUiOiIxNDkxNiJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.28",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 1259,
+                "packet_count": 10,
+                "proto": 6,
+                "start_port": 9094,
+                "end_port": 9094,
+                "port": "9094",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "9094",
+        "byteCount": 1259,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI4IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yOCJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiOTA5NCIsImRpc3BsYXlWYWx1ZSI6IjkwOTQifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6InByb3RvIiwidGl0bGUiOiJQcm90b2NvbCIsInR5cGUiOiJTVFJJTkciLCJleGFtcGxlcyI6ImUuZy4gVENQLCBVRFAsIElDTVAiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifSx7ImxhYmVsIjoiY29udGFpbnMiLCJ0eXBlIjoiY29udGFpbnMiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJjb250YWlucyJ9LHsibGFiZWwiOiJkb2Vzbid0IGNvbnRhaW4iLCJ0eXBlIjoibm90Q29udGFpbnMifV19LCJ2YWx1ZSI6IlRDUCIsImRpc3BsYXlWYWx1ZSI6IlRDUCJ9XQ--"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.29",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 396,
+                "packet_count": 4,
+                "proto": 6,
+                "start_port": 12859,
+                "end_port": 12859,
+                "port": "12859",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "12859",
+        "byteCount": 396,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI5IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yOSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMTI4NTkiLCJkaXNwbGF5VmFsdWUiOiIxMjg1OSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.25",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 465,
+                "packet_count": 4,
+                "proto": 6,
+                "start_port": 10839,
+                "end_port": 10839,
+                "port": "10839",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "10839",
+        "byteCount": 465,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yNSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMTA4MzkiLCJkaXNwbGF5VmFsdWUiOiIxMDgzOSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.120.207.223",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d525f3f497d4f23bf18bfc1",
+        "l4_details": [{
+                "byte_count": 5460,
+                "packet_count": 60,
+                "proto": 6,
+                "start_port": 1279,
+                "end_port": 1279,
+                "port": "1279",
+                "excluded": "false",
+                "confidence": "0.81",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d525f3f497d4f23bf18bfc1",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default:Mandiri Tetration",
+            "short_name": "Mandiri Tetration",
+            "dirty": false
+        },
+        "dst_filter_name": "Default:Mandiri Tetration",
+        "protocol": "TCP",
+        "portNumber": "1279",
+        "byteCount": 5460,
+        "excluded": "false",
+        "confidence": "0.81",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4xMjAuMjA3LjIyMyIsImRpc3BsYXlWYWx1ZSI6IjEwLjEyMC4yMDcuMjIzIn0seyJ0eXBlIjoiZmlsdGVyIiwib3BlcmF0b3IiOnsibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSwiZmFjZXQiOnsiZmllbGQiOiJkc3RfcG9ydCIsInRpdGxlIjoiUHJvdmlkZXIgUG9ydCIsInR5cGUiOiJOVU1CRVIiLCJleGFtcGxlcyI6ImUuZy4gODAsIDQ0MywgODAwMC05MDAwIiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn0seyJsYWJlbCI6Ij4iLCJ0eXBlIjoiZ3QiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndCJ9LHsibGFiZWwiOiI8IiwidHlwZSI6Imx0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibHQifSx7ImxhYmVsIjoi4omlIiwidHlwZSI6Imd0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imd0ZSJ9LHsibGFiZWwiOiLiiaQiLCJ0eXBlIjoibHRlIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibHRlIn1dfSwidmFsdWUiOiIxMjc5IiwiZGlzcGxheVZhbHVlIjoiMTI3OSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.23",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 395,
+                "packet_count": 4,
+                "proto": 6,
+                "start_port": 20917,
+                "end_port": 20917,
+                "port": "20917",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "20917",
+        "byteCount": 395,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjIzIiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yMyJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMjA5MTciLCJkaXNwbGF5VmFsdWUiOiIyMDkxNyJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.28",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 1259,
+                "packet_count": 10,
+                "proto": 6,
+                "start_port": 20879,
+                "end_port": 20879,
+                "port": "20879",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "20879",
+        "byteCount": 1259,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI4IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yOCJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMjA4NzkiLCJkaXNwbGF5VmFsdWUiOiIyMDg3OSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.254.152.108",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 1241665,
+                "packet_count": 923,
+                "proto": 6,
+                "start_port": 43492,
+                "end_port": 43492,
+                "port": "43492",
+                "excluded": "false",
+                "confidence": "0.82",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "43492",
+        "byteCount": 1241665,
+        "excluded": "false",
+        "confidence": "0.82",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yNTQuMTUyLjEwOCIsImRpc3BsYXlWYWx1ZSI6IjEwLjI1NC4xNTIuMTA4In0seyJ0eXBlIjoiZmlsdGVyIiwib3BlcmF0b3IiOnsibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSwiZmFjZXQiOnsiZmllbGQiOiJkc3RfcG9ydCIsInRpdGxlIjoiUHJvdmlkZXIgUG9ydCIsInR5cGUiOiJOVU1CRVIiLCJleGFtcGxlcyI6ImUuZy4gODAsIDQ0MywgODAwMC05MDAwIiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn0seyJsYWJlbCI6Ij4iLCJ0eXBlIjoiZ3QiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndCJ9LHsibGFiZWwiOiI8IiwidHlwZSI6Imx0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibHQifSx7ImxhYmVsIjoi4omlIiwidHlwZSI6Imd0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imd0ZSJ9LHsibGFiZWwiOiLiiaQiLCJ0eXBlIjoibHRlIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibHRlIn1dfSwidmFsdWUiOiI0MzQ5MiIsImRpc3BsYXlWYWx1ZSI6IjQzNDkyIn0seyJ0eXBlIjoiZmlsdGVyIiwib3BlcmF0b3IiOnsibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSwiZmFjZXQiOnsiZmllbGQiOiJwcm90byIsInRpdGxlIjoiUHJvdG9jb2wiLCJ0eXBlIjoiU1RSSU5HIiwiZXhhbXBsZXMiOiJlLmcuIFRDUCwgVURQLCBJQ01QIiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn0seyJsYWJlbCI6ImNvbnRhaW5zIiwidHlwZSI6ImNvbnRhaW5zIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiY29udGFpbnMifSx7ImxhYmVsIjoiZG9lc24ndCBjb250YWluIiwidHlwZSI6Im5vdENvbnRhaW5zIn1dfSwidmFsdWUiOiJUQ1AiLCJkaXNwbGF5VmFsdWUiOiJUQ1AifV0-"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.26",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 1259,
+                "packet_count": 10,
+                "proto": 6,
+                "start_port": 10838,
+                "end_port": 10838,
+                "port": "10838",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "10838",
+        "byteCount": 1259,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI2IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yNiJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMTA4MzgiLCJkaXNwbGF5VmFsdWUiOiIxMDgzOCJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.25",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 396,
+                "packet_count": 4,
+                "proto": 6,
+                "start_port": 10718,
+                "end_port": 10718,
+                "port": "10718",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "10718",
+        "byteCount": 396,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yNSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMTA3MTgiLCJkaXNwbGF5VmFsdWUiOiIxMDcxOCJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.28",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 396,
+                "packet_count": 4,
+                "proto": 6,
+                "start_port": 13828,
+                "end_port": 13828,
+                "port": "13828",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "13828",
+        "byteCount": 396,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI4IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yOCJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMTM4MjgiLCJkaXNwbGF5VmFsdWUiOiIxMzgyOCJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }, {
+        "src_ip": "10.204.4.25",
+        "dst_ip": "10.204.167.29",
+        "src_filter_id": "5ebe0ece497d4f23bceb8b7b",
+        "dst_filter_id": "5d4df168497d4f2a19226dce",
+        "l4_details": [{
+                "byte_count": 395,
+                "packet_count": 4,
+                "proto": 6,
+                "start_port": 20636,
+                "end_port": 20636,
+                "port": "20636",
+                "excluded": "false",
+                "confidence": "0.80",
+                "exclusion_filter_type": "NULL"
+            }
+        ],
+        "src_filter": {
+            "id": "5ebe0ece497d4f23bceb8b7b",
+            "filter_type": "Cluster",
+            "consistent_uuid": "5ebe0ece497d4f23bceb8b7b",
+            "name": "10.204.4.25",
+            "internal": true,
+            "alternate_selected": false,
+            "silhouette_f": -2,
+            "silhouette_sort": -2,
+            "approved": false
+        },
+        "src_filter_name": "10.204.4.25",
+        "dst_filter": {
+            "filter_type": "AppScope",
+            "id": "5d4df168497d4f2a19226dce",
+            "root_app_scope_id": "5d4df168497d4f2a19226dce",
+            "name": "Default",
+            "short_name": "Default",
+            "dirty": false
+        },
+        "dst_filter_name": "Default",
+        "protocol": "TCP",
+        "portNumber": "20636",
+        "byteCount": 395,
+        "excluded": "false",
+        "confidence": "0.80",
+        "flowSearchParams": {
+            "chips": "W3sidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoic3JjX2FkZHJlc3MiLCJ0aXRsZSI6IkNvbnN1bWVyIEFkZHJlc3MiLCJ0eXBlIjoiSVAiLCJleGFtcGxlcyI6ImUuZy4gMTAuMC4wLjEsIDEwLjIwLjMwLjAvMjQiLCJvcGVyYXRvcnMiOlt7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0seyJsYWJlbCI6IuKJoCIsInR5cGUiOiJuZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJuZXEifV19LCJ2YWx1ZSI6IjEwLjIwNC40LjI1IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjQuMjUifSx7InR5cGUiOiJmaWx0ZXIiLCJvcGVyYXRvciI6eyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LCJmYWNldCI6eyJmaWVsZCI6ImRzdF9hZGRyZXNzIiwidGl0bGUiOiJQcm92aWRlciBBZGRyZXNzIiwidHlwZSI6IklQIiwiZXhhbXBsZXMiOiJlLmcuIDEwLjAuMC4xLCAxMC4yMC4zMC4wLzI0Iiwib3BlcmF0b3JzIjpbeyJsYWJlbCI6Ij0iLCJ0eXBlIjoiZXEiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJlcSJ9LHsibGFiZWwiOiLiiaAiLCJ0eXBlIjoibmVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoibmVxIn1dfSwidmFsdWUiOiIxMC4yMDQuMTY3LjI5IiwiZGlzcGxheVZhbHVlIjoiMTAuMjA0LjE2Ny4yOSJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoiZHN0X3BvcnQiLCJ0aXRsZSI6IlByb3ZpZGVyIFBvcnQiLCJ0eXBlIjoiTlVNQkVSIiwiZXhhbXBsZXMiOiJlLmcuIDgwLCA0NDMsIDgwMDAtOTAwMCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiI+IiwidHlwZSI6Imd0IiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZ3QifSx7ImxhYmVsIjoiPCIsInR5cGUiOiJsdCIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0In0seyJsYWJlbCI6IuKJpSIsInR5cGUiOiJndGUiLCJfaDRRdWVyeUVxdWl2YWxlbnQiOiJndGUifSx7ImxhYmVsIjoi4omkIiwidHlwZSI6Imx0ZSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Imx0ZSJ9XX0sInZhbHVlIjoiMjA2MzYiLCJkaXNwbGF5VmFsdWUiOiIyMDYzNiJ9LHsidHlwZSI6ImZpbHRlciIsIm9wZXJhdG9yIjp7ImxhYmVsIjoiPSIsInR5cGUiOiJlcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImVxIn0sImZhY2V0Ijp7ImZpZWxkIjoicHJvdG8iLCJ0aXRsZSI6IlByb3RvY29sIiwidHlwZSI6IlNUUklORyIsImV4YW1wbGVzIjoiZS5nLiBUQ1AsIFVEUCwgSUNNUCIsIm9wZXJhdG9ycyI6W3sibGFiZWwiOiI9IiwidHlwZSI6ImVxIiwiX2g0UXVlcnlFcXVpdmFsZW50IjoiZXEifSx7ImxhYmVsIjoi4omgIiwidHlwZSI6Im5lcSIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6Im5lcSJ9LHsibGFiZWwiOiJjb250YWlucyIsInR5cGUiOiJjb250YWlucyIsIl9oNFF1ZXJ5RXF1aXZhbGVudCI6ImNvbnRhaW5zIn0seyJsYWJlbCI6ImRvZXNuJ3QgY29udGFpbiIsInR5cGUiOiJub3RDb250YWlucyJ9XX0sInZhbHVlIjoiVENQIiwiZGlzcGxheVZhbHVlIjoiVENQIn1d"
+        }
+    }
+]

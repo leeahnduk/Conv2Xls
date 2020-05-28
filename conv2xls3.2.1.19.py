@@ -30,12 +30,11 @@ URED = "\33[4;31m"
 Cyan = "\33[0;36m"  #Return
 # =================================================================================
 # See reason below -- why verify=False param is used
-# Download Conversation from Tet Cluster: python3 conv2xls.py --url https://192.168.30.4 --credential dmz_api_credentials.json
-# Already had the conversation JSON file: python3 conv2xls.py --url https://192.168.30.4 --credential dmz_api_credentials.json --conversation conversations.json
+# Download Conversation from Tet Cluster: python3 conv2xls3.2.1.19.py --url https://192.168.30.4 --credential dmz_api_credentials.json
+# Already had the conversation JSON file: python3 conv2xls3.2.1.19.py --url https://192.168.30.4 --credential dmz_api_credentials.json --conversation conversations.json
 # feedback: Le Anh Duc - anhdle@cisco.com
 # =================================================================================
 requests.packages.urllib3.disable_warnings()
-
 parser = argparse.ArgumentParser(description='Tetration Get an App detail and create JSON file for the detail')
 parser.add_argument('--url', help='Tetration URL', required=True)
 parser.add_argument('--credential', help='Path to Tetration json credential file', required=True)
@@ -129,7 +128,6 @@ def downloadConvs(rc,appIDs):
                 json.dump(apps, config_file, indent=4)
                 print("all-conversations.json created")
 
-
 def ShowConversation(convs):
     """
         Show All conversation and export to Excel file
@@ -138,7 +136,7 @@ def ShowConversation(convs):
     data_list = []
     headers = ['Source IP', 'Source Filter Name', 'Destination IP', 'Destination Filter Name', 'Protocol', 'Port', 'Bytes', 'Packets']
     for x in convs: 
-        data_list.append([x['src_ip'], x['src_filter_name'], x['dst_ip'], x['dst_filter_name'], x['proto_name'], x['port'], x['byte_count'], x['packet_count']]) 
+        data_list.append([x['src_ip'], x['src_filter_name'], x['dst_ip'], x['dst_filter_name'], x['protocol'], x['portNumber'], x['byteCount'], x['l4_details'][0]['packet_count']]) 
     table = columnar(data_list, headers, no_borders=False)
     print(table)
     with open('conversation.csv', 'w') as csvfile:
@@ -187,6 +185,8 @@ def main():
         except ValueError:
             print('Could not load improperly formatted conversation file')
             return
+
+
 				
 
 if __name__ == "__main__":
