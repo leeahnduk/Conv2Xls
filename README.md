@@ -43,6 +43,7 @@ A quick look for the help will list the current available options.
 ## Files
 Need to prepare Tetration Policies JSON file. The sample Tetration Policies JSON file is in the github folder.
 If don't have the conversation file, the script will connect to Tetration cluster to download it.
+Need to prepare Tetration Conversation JSON file. The sample Tetration Conversation JSON file is in the github folder.
 
 
 ## Steps
@@ -54,6 +55,9 @@ Step 2: To run the apps:
 * Already had the conversation JSON file: `python3 conv2xls.py --url https://Cluster-IP --credential api_credentials.json --conversation conversations.json`
 
 Step 3: Answer all the questions about the application name in your cluster to download the conversation JSON file if any.
+
+Step 4: Open Conversation.csv to see all conversation
+
 
 
 ## Feedback
