@@ -80,9 +80,12 @@ def GetAppVersions(rc, appid):
         return resp.json()
 
 def GetLatestVersion(app_versions):
+    version =[]
     try:
         for vers in app_versions: 
-            if "v" in vers["version"]: return vers["version"]
+            if 'v' in vers["version"]: version.append(vers['version'])
+        print (version)
+        return version[0]
     except:
         print(URED + "Failed to retrieve latest app version"+ CEND)
 
@@ -113,12 +116,14 @@ def downloadConvs(rc,appIDs):
     # Download Apps Conversation JSON files from Apps workspace
     apps = []
     for appID in appIDs:
-        print('Downloading app details for '+appID + "into json file")
+        print('Downloading app details for '+appID + " into json file")
         versions = GetAppVersions(rc,appID)
         version = int(re.search(r'\d+', GetLatestVersion(versions)).group(0))
+        print (version)
         req_payload = {"version": version,
                "limit": 100000
                }
+        print (req_payload)
         resp = rc.post('/openapi/v1/conversations/%s'%appID, json_body=json.dumps(req_payload))
         if resp.status_code == 200:
             parsed_resp = json.loads(resp.content)

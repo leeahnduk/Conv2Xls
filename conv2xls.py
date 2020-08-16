@@ -81,11 +81,20 @@ def GetAppVersions(rc, appid):
         return resp.json()
 
 def GetLatestVersion(app_versions):
+    version =[]
+    try:
+        for vers in app_versions: 
+            if 'v' in vers["version"]: version.append(vers['version'])
+        return version[0]
+    except:
+        print(URED + "Failed to retrieve latest app version"+ CEND)
+
+'''def GetLatestVersion(app_versions):
     try:
         for vers in app_versions: 
             if "v" in vers["version"]: return vers["version"]
     except:
-        print(URED + "Failed to retrieve latest app version"+ CEND)
+        print(URED + "Failed to retrieve latest app version"+ CEND)'''
 
 def GetLatestEnforcedVersion(app_versions):
     try:
@@ -116,7 +125,9 @@ def downloadConvs(rc,appIDs):
     for appID in appIDs:
         print('Downloading app details for '+appID + "into json file")
         versions = GetAppVersions(rc,appID)
+        print (versions)
         version = int(re.search(r'\d+', GetLatestVersion(versions)).group(0))
+        print (version)
         req_payload = {"version": version,
                "limit": 100000
                }
