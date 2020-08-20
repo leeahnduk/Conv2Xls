@@ -14,7 +14,8 @@ from collections import defaultdict
 from datetime import datetime
 from builtins import input
 from columnar import columnar
-import pandas as pd
+import xlsxwriter
+from openpyxl import Workbook
 
 
 from tetpyclient import RestClient
@@ -30,8 +31,7 @@ URED = "\33[4;31m"
 Cyan = "\33[0;36m"  #Return
 # =================================================================================
 # See reason below -- why verify=False param is used
-# Download Conversation from Tet Cluster: python3 conv2xls.py --url https://10.71.129.30/ --credential Japan_api_credentials.json
-# Already had the conversation JSON file: python3 conv2xls.py --url https://192.168.30.4 --credential dmz_api_credentials.json --conversation conversations.json
+# Download Conversation from Tet Cluster: python3 appsConv2xls.py --url https://10.71.129.30/ --credential Japan_api_credentials.json
 # feedback: Le Anh Duc - anhdle@cisco.com
 # =================================================================================
 requests.packages.urllib3.disable_warnings()
@@ -39,7 +39,6 @@ requests.packages.urllib3.disable_warnings()
 parser = argparse.ArgumentParser(description='Tetration Get an App detail and create JSON file for the detail')
 parser.add_argument('--url', help='Tetration URL', required=True)
 parser.add_argument('--credential', help='Path to Tetration json credential file', required=True)
-parser.add_argument('--conversation',  default=None, help='Path to JSON Conversation file')
 args = parser.parse_args()
 
 
@@ -89,12 +88,7 @@ def GetLatestVersion(app_versions):
     except:
         print(URED + "Failed to retrieve latest app version"+ CEND)
 
-'''def GetLatestVersion(app_versions):
-    try:
-        for vers in app_versions: 
-            if "v" in vers["version"]: return vers["version"]
-    except:
-        print(URED + "Failed to retrieve latest app version"+ CEND)'''
+
 
 def GetLatestEnforcedVersion(app_versions):
     try:
@@ -126,9 +120,7 @@ def downloadConvs(rc,appIDs):
     for appID in appIDs:
         print('Downloading app details for '+appID + "into json file")
         versions = GetAppVersions(rc,appID)
-        print (versions)
         version = int(re.search(r'\d+', GetLatestVersion(versions)).group(0))
-        print (version)
         req_payload = {"version": version,
                "limit": limit
                }
@@ -142,23 +134,6 @@ def downloadConvs(rc,appIDs):
                 print("all-conversations.json created")
 
 
-'''def ShowConversation(convs):
-    """
-        Show All conversation and export to Excel file
-        Source IP | Source Filter Name | Destination IP | Destination Filter Name | Protocol | Port | Bytes | Packets
-        """
-    data_list = []
-    headers = ['Source IP', 'Source Filter Name', 'Destination IP', 'Destination Filter Name', 'Protocol', 'Port', 'Bytes', 'Packets']
-    for x in convs: 
-        data_list.append([x['src_ip'], x['src_filter_name'], x['dst_ip'], x['dst_filter_name'], x['proto_name'], x['port'], x['byte_count'], x['packet_count']]) 
-    table = columnar(data_list, headers, no_borders=False)
-    print(table)
-    with open('conversation.csv', 'w') as csvfile:
-        writer = csv.writer(csvfile, delimiter=',')
-        writer.writerow(i for i in headers)
-        for row in data_list:
-            writer.writerow(row)
-    print ("conversation.csv created!!!")'''
 
 def ShowConversationTet(convs):
     """
@@ -177,28 +152,45 @@ def ShowConversationTet(convs):
         writer.writerow(i for i in headers)
         for row in data_list:
             writer.writerow(row)
-    print ("conversation.csv created!!!")
+    
+    export_xlsfile = 'Apps_Conversation.xlsx'
+    workbook = xlsxwriter.Workbook(export_xlsfile)
+    bold = workbook.add_format({'bold': True})
+    worksheet = workbook.add_worksheet(name='Apps Conversation')
+    header_format = workbook.add_format()
+    header_format.set_bg_color('cyan')
+    header_format.set_bold()
+    header_format.set_font_size(13)
+    header_format.set_font_color('black')
+    worksheet.set_row(0, None)
+    worksheet.write_row(0,0,headers,header_format)
+    i=1
+    firstline = True
+    with open('conversation.csv', 'r') as f:
+        for row in csv.reader(f):
+            if firstline:    #skip first line
+                firstline = False
+                continue
+            worksheet.write_row(i,0,row)
+            i += 1
+    worksheet.set_column(0, 0, 20)
+    worksheet.set_column(1, 1, 20)
+    i =2
+    while i < 6:
+        worksheet.set_column(i, i, 15)
+        i += 1
+    workbook.close()
+    print ('Writing csv file to %s with %d columns' % (export_xlsfile, len(headers)))
+    os.remove('conversation.csv')
 
 
 def main():
     rc = CreateRestClient()
     AllApps = GetApps(rc)
-    if args.conversation is None:
-        print('%% No Conversation JSON file given - connecting to Tetration to download')
-        appIDs = selectTetApps(AllApps)
-        downloadConvs(rc, appIDs)
-        with open('all-conversations.json') as config_file:
-                ShowConversationTet(json.load(config_file))
-    else:
-        try:
-            with open(args.conversation) as config_file:
-                ShowConversation(json.load(config_file))
-        except IOError:
-            print('%% Could not load conversation file')
-            return
-        except ValueError:
-            print('Could not load improperly formatted conversation file')
-            return
+    appIDs = selectTetApps(AllApps)
+    downloadConvs(rc, appIDs)
+    with open('all-conversations.json') as config_file:
+        ShowConversationTet(json.load(config_file))
 				
 
 if __name__ == "__main__":
